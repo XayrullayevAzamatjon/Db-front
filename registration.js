@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
         try {
-            const response = await fetch('http://localhost:8080/api/v1/users', {
+            const response = await fetch('https://databaseproject-flou.onrender.com/api/v1/users', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
